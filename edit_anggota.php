@@ -42,7 +42,7 @@
     $edit = mysql_query("SELECT * FROM costumer WHERE id='$_GET[id]'");
             $r    = mysql_fetch_array($edit);
     echo"   <center></center>
-            <form method=post action=input_daftar_anggota.php>";
+            <form method=post action=update_costumer.php>";
     ?>
     <div id="wrapper">
 
