@@ -269,7 +269,7 @@
 
                                         <div class="form-group">
                                             <label>Alamat</label>
-                                            <textarea class="form-control" rows="3" value='<?php echo $r["alamat"]; ?>'></textarea name=alamat>
+                                            <textarea class="form-control" rows="3"  name=alamat value='<?php echo $r["alamat"]; ?>'></textarea>
                                         </div>
                                         
                                         <div class="form-group">
